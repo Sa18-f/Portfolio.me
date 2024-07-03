@@ -5,8 +5,12 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        Wittgenstein: "'Wittgenstein', serif",
+      }
+    },
   },
-  plugins: [],
+  plugins: [require('daisyui')],
 }
 
