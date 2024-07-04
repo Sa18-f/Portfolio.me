@@ -33,7 +33,7 @@ const Introduction = () => {
                     </div>
                 </div>
                 <div>
-                    <img src="https://i.ibb.co/sKDPvLK/Whats-App-Image-2024-07-04-at-02-13-46-1ce1c470.jpg" alt="" />
+                    <img className="rounded-xl" src="https://i.ibb.co/sKDPvLK/Whats-App-Image-2024-07-04-at-02-13-46-1ce1c470.jpg" alt="" />
                 </div>
             </div>
         </section>
