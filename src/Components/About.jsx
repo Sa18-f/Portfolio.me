@@ -2,9 +2,9 @@
 
 const About = () => {
     return (
-        <div className="my-12 text-start flex lg:flex-row flex-col-reverse justify-between items-center p-5 gap-6">
+        <div className="my-12 text-start flex lg:flex-row flex-col-reverse justify-between items-center gap-6 mx-auto container p-2">
             <div>
-                <img className="rounded-xl lg:w-[400px]" src="https://i.ibb.co/hCp3Tp5/Whats-App-Image-2024-07-04-at-15-24-14-9c3fa3ed.jpg" alt="" />
+                <img className="rounded-xl lg:w-[400px] transition-transform hover:scale-125" src="https://i.ibb.co/hCp3Tp5/Whats-App-Image-2024-07-04-at-15-24-14-9c3fa3ed.jpg" alt="" />
             </div>
             <div className="">
                 <h1 className="text-4xl font-medium text-white"> Hi There! I'm Md. Shoriful Islam</h1>

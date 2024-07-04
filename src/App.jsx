@@ -12,7 +12,7 @@ function App() {
 
 
   return (
-    <div className="App font-Wittgenstein">
+    <div className="font-Wittgenstein">
       <Header />
       <Introduction />
       <About></About>
