@@ -30,13 +30,20 @@ const Projects = () => {
     return (
         <section id="projects" className="container mx-auto p-2">
             <h2 className="text-gray-950 dark:text-gray-100 text-3xl md:text-5xl font-bold mb-2 tracking-tight text-start">My Featured Projects ⬇️</h2>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                 {projects.map((project, index) => (
                     <div key={index} className="mt-8 shadow-md dark:bg-zinc-900 bg-zinc-100 rounded-xl border-2 border-solid border-zinc-400 dark:border-zinc-700 hover:border-zinc-600 dark:hover:border-white  transform hover:scale-110 transition-transform">
                         <img className="p-4 rounded-3xl" src={project.img} alt="Book Care" />
                         <h3 className="dark:text-gray-100 text-4xl font-bold tracking-tight mx-5">{project.name}</h3>
                         <p className="dark:text-gray-100 font-semibold text-md tracking-tight p-2 mx-5">{project.description}</p>
-                        <div className="flex mt-4 mx-5 mb-5">
+                        <div className="flex justify-center items-center">
+                            <img className="lg:w-12 w-8 hover:scale-110 duration-200 transition cursor-pointer" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" />
+                            <img className="lg:w-12 w-8 hover:scale-110 duration-200 transition cursor-pointer ml-3" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg" />
+                            <img className="lg:w-12 w-8  hover:scale-110 duration-200 transition cursor-pointer ml-3" src="https://skillicons.dev/icons?i=express" />
+                            <img className="lg:w-12 w-8 hover:scale-110 duration-200 transition cursor-pointer mx-3" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" />
+                            <img className="lg:w-12 w-8 hover:scale-110 duration-200 transition cursor-pointer" src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/MongoDB.svg" />
+                        </div>
+                        <div className="flex my-4 justify-center items-center">
                             <a href={project.liveLink} className="bg-gray-900 dark:bg-gray-800 items-center hover:scale-110 transition-transform transform text-white dark:text-white flex gap-2 p-3 rounded-md font-medium">
                                 <FaUnlink />
                             </a>
@@ -44,11 +51,6 @@ const Projects = () => {
                             </a>
                             <a href={project.githubLink2} className="bg-gray-900 dark:bg-gray-800 items-center hover:scale-110 text-xl transition-transform transform text-white dark:text-white flex gap-2 p-3 rounded-md font-medium ml-3"><IoServerSharp />
                             </a>
-                            <div className="flex">
-                                <img className="lg:w-12 w-8 hover:scale-110 duration-200 transition cursor-pointer ml-3" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" />
-                                <img className="lg:w-12 w-8 hover:scale-110 duration-200 transition cursor-pointer mx-3" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" />
-                                <img className="lg:w-12 w-8 hover:scale-110 duration-200 transition cursor-pointer" src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/MongoDB.svg"/>
-                            </div>
                         </div>
                     </div>
                 ))}
