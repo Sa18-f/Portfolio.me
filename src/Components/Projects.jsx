@@ -1,4 +1,5 @@
 import { FaCode, FaUnlink } from "react-icons/fa";
+import { IoServerSharp } from "react-icons/io5";
 const Projects = () => {
     const projects = [
         {
@@ -6,21 +7,24 @@ const Projects = () => {
             name: 'BookCare',
             description: 'A vast collection of physical books and e-books covering a wide range of genres, including fiction, non-fiction, academic texts.',
             liveLink: 'https://library-management-syste-b1f31.web.app/',
-            githubLink: 'https://github.com/Sa18-f/Library-Management-client?tab=readme-ov-file'
+            githubLink: 'https://github.com/Sa18-f/Library-Management-client?tab=readme-ov-file',
+            githubLink2: 'https://github.com/Sa18-f/Library-Management-server'
         },
         {
             img: 'https://i.ibb.co/BsBKG1f/Whats-App-Image-2024-07-04-at-04-00-13-55dd2b25.jpg',
             name: 'FindHouse',
             description: 'It provides a seamless and intuitive platform for exploring, buying, rent and selling properties.',
             liveLink: 'https://cosmic-rugelach-ddb064.netlify.app/',
-            githubLink: 'https://github.com/Sa18-f/Real-Estate-auth?tab=readme-ov-file'
+            githubLink: 'https://github.com/Sa18-f/Real-Estate-auth?tab=readme-ov-file',
+            githubLink2: 'https://github.com/Sa18-f/Tourism-Management-server'
         },
         {
             img: 'https://i.ibb.co/QX8TTD5/Whats-App-Image-2024-07-04-at-03-48-53-5264be71.jpg',
             name: 'JourneyMingle',
             description: 'It offers a user-friendly platform for booking and managing personalized travel experiences.',
             liveLink: 'https://tourism-management-6d801.web.app/',
-            githubLink: 'https://github.com/Sa18-f/Tourism-Management-client?tab=readme-ov-file'
+            githubLink: 'https://github.com/Sa18-f/Tourism-Management-client?tab=readme-ov-file',
+            githubLink2: 'https://github.com/Sa18-f/Tourism-Management-server'
         },
     ];
     return (
@@ -38,11 +42,12 @@ const Projects = () => {
                             </a>
                             <a href={project.githubLink} className="bg-gray-900 dark:bg-gray-800 items-center hover:scale-110 text-xl transition-transform transform text-white dark:text-white flex gap-2 p-3 rounded-md font-medium ml-3"><FaCode></FaCode>
                             </a>
-                            <div className="flex w-8 h-8 lg:w-24 lg:h-12">
-                                <img className="lg:mx-3 mx-1" src="/public/react-2.svg" alt="" />
-                                <img className="lg:mx-3 mx-1" src="/public/firebase-1.svg" alt="" />
-                                <img className="lg:mx-3 mx-1" src="/public/nodejs-icon.svg" alt="" />
-                                <img className="lg:mx-3 mx-1" src="/public/mongodb-icon-1.svg" alt="" />
+                            <a href={project.githubLink2} className="bg-gray-900 dark:bg-gray-800 items-center hover:scale-110 text-xl transition-transform transform text-white dark:text-white flex gap-2 p-3 rounded-md font-medium ml-3"><IoServerSharp />
+                            </a>
+                            <div className="flex">
+                                <img className="lg:w-12 w-8 hover:scale-110 duration-200 transition cursor-pointer ml-3" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" />
+                                <img className="lg:w-12 w-8 hover:scale-110 duration-200 transition cursor-pointer mx-3" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" />
+                                <img className="lg:w-12 w-8 hover:scale-110 duration-200 transition cursor-pointer" src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/MongoDB.svg"/>
                             </div>
                         </div>
                     </div>
