@@ -46,12 +46,12 @@ const Contact = () => {
                 <div className="mt-6 text-center">
                     <p className="text-xl font-semibold dark:text-gray-200">You can also find me on:</p>
                     <div className="my-1 flex justify-center items-center space-x-2">
-                        <FaPhoneAlt className="text-white" />
-                        <h2 className="text-white font-medium text-lg">+8801810313991</h2>
+                        <FaPhoneAlt className="dark:text-gray-200" />
+                        <h2 className="font-medium text-lg dark:text-gray-200">+8801810313991</h2>
                     </div>
                     <div className="my-1 flex justify-center items-center space-x-2">
-                        <TfiEmail className="text-white" />
-                        <h2 className="text-white font-medium text-lg">sisazid182713@gmail.com</h2>
+                        <TfiEmail className="dark:text-gray-200" />
+                        <h2 className="dark:text-gray-200 font-medium text-lg">sisazid182713@gmail.com</h2>
                     </div>
                     <div className="flex items-center justify-center mt-4 space-x-4">
                         <a href="https://github.com/Sa18-f" aria-label="GitHub" className="transition-transform dark:fill-white fill-black hover:scale-150">

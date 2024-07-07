@@ -3,7 +3,7 @@
 const Skills = () => {
     return (
         <section id="skills" className="container mx-auto my-12 p-2">
-            <h2 className="mb-3 text-start"><span className="text-xl">My Arsenal</span> <span className="font-extrabold text-gray-950 dark:text-gray-100 text-3xl md:text-5xl mb-2 tracking-tight">Skills ⬇️</span></h2>
+            <h2 className="mb-3 text-start"><span className="text-xl">My Arsenal</span> <span className="font-extrabold text-white text-3xl md:text-5xl mb-2 tracking-tight">Skills ⬇️</span></h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4 lg:gap-8">
                 <div className="my-5 shadow-md dark:bg-zinc-900 bg-zinc-100 rounded-xl border-2 border-solid border-zinc-400 dark:border-zinc-700 hover:border-zinc-600 dark:hover:border-white  transform hover:scale-110 transition-transform px-5 pt-5">
                     <h3 className="text-gray-950 dark:text-gray-100 text-3xl md:text-3xl font-bold mb-8 tracking-tight border-b-2 pb-2">Languages and Frameworks</h3>
