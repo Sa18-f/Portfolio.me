@@ -11,12 +11,12 @@ const Projects = () => {
             githubLink2: 'https://github.com/Sa18-f/Library-Management-server'
         },
         {
-            img: 'https://i.ibb.co/BsBKG1f/Whats-App-Image-2024-07-04-at-04-00-13-55dd2b25.jpg',
-            name: 'FindHouse',
-            description: 'It provides a seamless and intuitive platform for exploring, buying, rent and selling properties.',
-            liveLink: 'https://cosmic-rugelach-ddb064.netlify.app/',
-            githubLink: 'https://github.com/Sa18-f/Real-Estate-auth?tab=readme-ov-file',
-            githubLink2: 'https://github.com/Sa18-f/Tourism-Management-server'
+            img: 'https://i.ibb.co/k9Y6NBr/Whats-App-Image-2024-07-10-at-01-21-08-bedabb38.jpg',
+            name: 'MedShop',
+            description: 'It’s a website for buying medicines online.It makes easy for people to buy medicines from home.',
+            liveLink: 'https://medi-nest.web.app/',
+            githubLink: 'https://github.com/Sa18-f/Medshop-jwt-payment-client',
+            githubLink2: 'https://github.com/Sa18-f/MedShop-jwt-payment-server'
         },
         {
             img: 'https://i.ibb.co/QX8TTD5/Whats-App-Image-2024-07-04-at-03-48-53-5264be71.jpg',
