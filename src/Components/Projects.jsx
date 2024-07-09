@@ -30,7 +30,7 @@ const Projects = () => {
     return (
         <section id="projects" className="container mx-auto p-2">
             <h2 className="text-white text-3xl md:text-5xl font-bold mb-2 tracking-tight text-start">My Featured Projects ⬇️</h2>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 lg:gap-6 gap-3">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 lg:gap-6">
                 {projects.map((project, index) => (
                     <div key={index} className="mt-8 shadow-md dark:bg-zinc-900 bg-zinc-100 rounded-xl border-2 border-solid border-zinc-400 dark:border-zinc-700 hover:border-zinc-600 dark:hover:border-white  transform hover:scale-110 transition-transform">
                         <img className="p-4 rounded-3xl" src={project.img} alt="Book Care" />

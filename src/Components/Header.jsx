@@ -16,10 +16,10 @@ const Header = () => {
     //     }
     // };
     return (
-        <div className="navbar text-white container mx-auto">
+        <div className="navbar text-white">
             <div className="navbar-start">
                 <div className="dropdown">
-                    <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
+                    <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden -ml-7">
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
                             className="h-5 w-5"
@@ -44,7 +44,7 @@ const Header = () => {
                         </li>
                     </ul>
                 </div>
-                <a className="btn btn-ghost text-2xl -ml-6 lg:-ml-2">Shoriful</a>
+                <a className="btn btn-ghost text-2xl lg:-ml-6 -ml-5">Shoriful</a>
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1">
