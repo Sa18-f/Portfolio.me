@@ -7,7 +7,7 @@ const About = () => {
             {/* <div>
                 <img className="rounded-xl" src="https://i.ibb.co/hCp3Tp5/Whats-App-Image-2024-07-04-at-15-24-14-9c3fa3ed.jpg" alt="" />
             </div> */}
-            <div className="lg:w-1/3 w-3/4">
+            <div className="lg:w-1/3 w-[74%]">
             <SwiperComponent></SwiperComponent>
             </div>
             <div className="">

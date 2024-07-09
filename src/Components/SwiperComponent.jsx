@@ -19,7 +19,7 @@ const SwiperComponent = () => {
                 <SwiperSlide>
                     <img
                         loading="lazy"
-                        className="rounded-lg object-cover w-full h-[500px]"
+                        className="rounded-lg object-cover w-full lg:h-[500px] h-[350px]"
                         src="https://i.ibb.co/WP5DtWb/FB-IMG-1720548882598-1.jpg"
                         alt="image"
                     />
@@ -27,7 +27,7 @@ const SwiperComponent = () => {
                 <SwiperSlide>
                     <img
                         loading="lazy"
-                        className="rounded-lg object-cover w-full h-[500px]"
+                        className="rounded-lg object-cover w-full lg:h-[500px] h-[350px]"
                         src="https://i.ibb.co/PCbsSXV/Whats-App-Image-2024-07-10-at-00-12-18-b33ccd88.jpg"
                         alt="image"
                     />
@@ -35,7 +35,7 @@ const SwiperComponent = () => {
                 <SwiperSlide>
                     <img
                         loading="lazy"
-                        className="rounded-lg object-cover w-full h-[500px]"
+                        className="rounded-lg object-cover w-full lg:h-[500px] h-[350px]"
                         src="https://i.ibb.co/h1KKvZC/Whats-App-Image-2024-07-04-at-02-22-53-994f0702.jpg"
                         alt="image"
                     />
@@ -51,7 +51,7 @@ const SwiperComponent = () => {
                 <SwiperSlide>
                     <img
                         loading="lazy"
-                        className="rounded-lg object-cover w-full h-[500px]"
+                        className="rounded-lg object-cover w-full lg:h-[500px] h-[350px]"
                         src="https://i.ibb.co/m6XB524/Whats-App-Image-2024-07-10-at-00-12-18-07f61000.jpg"
                         alt="image"
                     />
