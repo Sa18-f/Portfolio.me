@@ -1,11 +1,17 @@
-
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from "react";
 
 const Skills = () => {
+    useEffect(() => {
+        AOS.init();
+    }, []);
     return (
         <section id="skills" className="container mx-auto my-12 p-2">
             <h2 className="mb-3 text-start"><span className="text-xl">My Arsenal</span> <span className="font-extrabold text-white text-3xl md:text-5xl mb-2 tracking-tight">Skills ⬇️</span></h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4 lg:gap-8">
-                <div className="my-5 shadow-md dark:bg-zinc-900 bg-zinc-100 rounded-xl border-2 border-solid border-zinc-400 dark:border-zinc-700 hover:border-zinc-600 dark:hover:border-white  transform hover:scale-110 transition-transform px-5 pt-5">
+                <div className="my-5 shadow-md dark:bg-zinc-900 bg-zinc-900 rounded-xl border-2 border-solid border-zinc-400 dark:border-zinc-700 hover:border-zinc-600 dark:hover:border-white hover:scale-110 px-5 pt-5" data-aos="flip-right" data-aos-easing="ease-out-cubic"
+                    data-aos-duration="2000">
                     <h3 className="text-white text-3xl md:text-3xl font-bold mb-8 tracking-tight border-b-2 pb-2">Languages and Frameworks</h3>
                     <div className="grid grid-cols-4 md:grid-cols-5 gap-12 my-4 lg:w-[500px]">
                         <div>
@@ -40,7 +46,8 @@ const Skills = () => {
                         </div>
                     </div>
                 </div>
-                <div className="my-5 shadow-md dark:bg-zinc-900 bg-zinc-100 rounded-xl border-2 border-solid border-zinc-400 dark:border-zinc-700 hover:border-zinc-600 dark:hover:border-white  transform hover:scale-110 transition-transform px-5 pt-5">
+                <div className="my-5 shadow-md dark:bg-zinc-900 bg-zinc-900 rounded-xl border-2 border-solid border-zinc-400 dark:border-zinc-700 hover:border-zinc-600 dark:hover:border-white hover:scale-110 px-5 pt-5" data-aos="flip-left" data-aos-easing="ease-out-cubic"
+                    data-aos-duration="2000">
                     <h3 className="text-white text-3xl md:text-3xl font-bold mb-8 tracking-tight border-b-2 pb-2">Database and Tools</h3>
                     <div className="grid grid-cols-4 md:grid-cols-5 gap-12 my-4">
                         <div>
@@ -59,7 +66,7 @@ const Skills = () => {
                             <img className="lg:w-16 w-14 hover:scale-110 duration-200 transition cursor-pointer" src="https://www.vectorlogo.zone/logos/netlify/netlify-icon.svg" />
                         </div>
                         <div>
-                            <img className="lg:w-16 w-14 hover:scale-110 duration-200 transition cursor-pointer" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"/>
+                            <img className="lg:w-16 w-14 hover:scale-110 duration-200 transition cursor-pointer" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" />
                         </div>
                         <div>
                             <img className="lg:w-16 w-14 hover:scale-110 duration-200 transition cursor-pointer" src="https://skillicons.dev/icons?i=github" alt="GitHub" />
