@@ -1,8 +1,13 @@
-import CountUp from "react-countup";
+import CountUp, { useCountUp } from "react-countup";
 import SwiperComponent from "./SwiperComponent";
 
 
 const About = () => {
+    useCountUp({
+        ref: 'counter',
+        enableScrollSpy: true,
+        scrollSpyDelay: 1000,
+      });
     return (
         <div id="about" className="my-12 text-start flex lg:flex-row flex-col-reverse justify-between items-center gap-6 p-2">
             {/* <div>
@@ -15,13 +20,13 @@ const About = () => {
                 {/* <h1 className="text-4xl font-medium text-white"> Hi There! I’m Md. Shoriful Islam</h1> */}
                 <div className="flex gap-7 items-center flex-wrap text-[#0788FF]">
                     <div>
-                        <span className="blue-text-gradient font-bold lg:text-[44px] text-[30px]"><span><CountUp end={21}></CountUp></span></span><br /><span className="text-gray-400 font-semibold lg:text-normal text-sm">years old</span>
+                        <span className="blue-text-gradient font-bold lg:text-[44px] text-[30px]"><span><CountUp end={21}enableScrollSpy></CountUp></span></span><br /><span className="text-gray-400 font-semibold lg:text-normal text-sm">years old</span>
                     </div>
                     <div>
-                        <span className="blue-text-gradient font-bold lg:text-[44px] text-[30px]"><span><CountUp end={10}></CountUp></span>+</span><br /><span className="text-gray-400 font-semibold lg:text-normal text-sm">month’s web dev </span>
+                        <span className="blue-text-gradient font-bold lg:text-[44px] text-[30px]"><span><CountUp end={10}enableScrollSpy></CountUp></span>+</span><br /><span className="text-gray-400 font-semibold lg:text-normal text-sm">month’s web dev </span>
                     </div>
                     <div>
-                        <span className="blue-text-gradient font-bold lg:text-[44px]  text-[30px]"><span><CountUp end={598}></CountUp></span></span><br /><span className="text-gray-400 font-semibold lg:text-normal text-sm">Total Commits</span>
+                        <span className="blue-text-gradient font-bold lg:text-[44px]  text-[30px]"><span><CountUp enableScrollSpy end={601}></CountUp></span></span><br /><span className="text-gray-400 font-semibold lg:text-normal text-sm">Total Commits</span>
                     </div>
                 </div>
                 {/* <h3 className="text-2xl font-medium text-[#0788FF] mt-3">Mern Stack Web Developer</h3> */}
