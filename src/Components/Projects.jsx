@@ -40,7 +40,7 @@ const Projects = () => {
                 {projects.map((project, index) => (
                     <div key={index} className="mt-8 shadow-md dark:bg-zinc-900 bg-zinc-100 rounded-xl border-2 border-solid border-zinc-400 dark:border-zinc-700 hover:border-zinc-600 dark:hover:border-white" data-aos="fade-up"
                     data-aos-easing="ease-out-cubic" data-aos-duration="2000">
-                        <img className="p-4 rounded-3xl" src={project.img} alt="Book Care" />
+                        <img className="p-4 rounded-3xl w-full" src={project.img} alt="Book Care" />
                         <h3 className="text-gray-950 dark:text-gray-100 text-4xl font-bold tracking-tight mx-5">{project.name}</h3>
                         <p className="dark:text-gray-100 font-semibold text-md tracking-tight p-2 mx-5">{project.description}</p>
                         <div className="flex justify-center items-center">

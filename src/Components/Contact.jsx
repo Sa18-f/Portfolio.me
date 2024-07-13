@@ -1,12 +1,17 @@
-import { useRef } from "react";
+import { useEffect, useRef } from "react";
 import emailjs from '@emailjs/browser';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import { FaPhoneAlt } from "react-icons/fa";
 import { TfiEmail } from "react-icons/tfi";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 
 const Contact = () => {
+    useEffect(() => {
+        AOS.init();
+    }, []);
     const form = useRef();
 
     const sendEmail = (e) => {
@@ -23,7 +28,8 @@ const Contact = () => {
         e.target.reset();
     };
     return (
-        <section id="contact" className="container mx-auto p-2">
+        <section id="contact" className="container mx-auto p-2" data-aos="zoom-in-up" data-aos-easing="ease-out-cubic"
+        data-aos-duration="2000">
             <form ref={form} onSubmit={sendEmail} className="w-full p-8 my-4 bg-white rounded-lg shadow-lg dark:bg-gray-900">
                 <h2 className="text-2xl font-bold text-center dark:text-white">Contact Me</h2>
                 <div className="grid grid-cols-1 gap-4 mt-4 sm:grid-cols-2">
