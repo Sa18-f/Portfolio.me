@@ -3,20 +3,20 @@ import { IoServerSharp } from "react-icons/io5";
 const Projects = () => {
     const projects = [
         {
+            img: 'https://i.ibb.co/KbxvckG/IMG-20240713-WA0004-1.jpg',
+            name: 'MedShop',
+            description: 'It’s a website for buying medicines online.It makes easy for people to buy medicines from home.',
+            liveLink: 'https://medi-nest.web.app/',
+            githubLink: 'https://github.com/Sa18-f/Medshop-jwt-payment-client',
+            githubLink2: 'https://github.com/Sa18-f/MedShop-jwt-payment-server'
+        },
+        {
             img: 'https://i.ibb.co/c3W6whr/Whats-App-Image-2024-07-04-at-03-44-16-992ddc8c.jpg',
             name: 'BookCare',
             description: 'A vast collection of physical books and e-books covering a wide range of genres, including fiction, non-fiction.',
             liveLink: 'https://library-management-syste-b1f31.web.app/',
             githubLink: 'https://github.com/Sa18-f/Library-Management-client?tab=readme-ov-file',
             githubLink2: 'https://github.com/Sa18-f/Library-Management-server'
-        },
-        {
-            img: 'https://i.ibb.co/k9Y6NBr/Whats-App-Image-2024-07-10-at-01-21-08-bedabb38.jpg',
-            name: 'MedShop',
-            description: 'It’s a website for buying medicines online.It makes easy for people to buy medicines from home.',
-            liveLink: 'https://medi-nest.web.app/',
-            githubLink: 'https://github.com/Sa18-f/Medshop-jwt-payment-client',
-            githubLink2: 'https://github.com/Sa18-f/MedShop-jwt-payment-server'
         },
         {
             img: 'https://i.ibb.co/QX8TTD5/Whats-App-Image-2024-07-04-at-03-48-53-5264be71.jpg',
